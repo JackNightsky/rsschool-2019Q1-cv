@@ -8,91 +8,98 @@
     <title>My CV</title>
 </head>
 <body>
-    <header> 
+    <section class="no-see"><h1>Evgeny Shapialevich CV</h1></section>
+    <header class="header-page"> 
         <nav>
-            <a href="#about-info">About Me</a>
-            <a href="#cv">CV</a>
-            <a href="#contacts">Contacts</a>
+            <a class="menu-item" href="#about-me">About Me</a>
+            <a class="menu-item" href="#cv">CV</a>
+            <a class="menu-item" href="#contact">Contacts</a>
         </nav>
     </header>
-    <main>
-        <section id="about-me">
-            <img src="img/My-photo.jpg" alt="My photo">
-            <p>Hello! My name is Evgeny and I'm junior web-developer.</p>
+    <main class="main-page">
+        <section id="about-me" class="about-me section">
+            <img class='my-photo' src="img/My-photo.jpg" alt="My photo">
+            <p class="txt"><span class="hello">Hello!</span> <br/> My name is <span class="my-name"><b>Evgeny Shapialevich</b></span> and I'm junior Web Developer.</p>
         </section>
-        <section id="cv">
-                <h3>
-                    Summary
-                </h3>
-                Хочу повысить свои навыки в веб разработке. Возможно даже найти работу. Есть несколько идей которые хочется реализовать, надеюсь буст в виде курсов мне в этом поможет. RSS будет для меня тем челенджем который ускорит меня, готов использовать свои знания и помогать товарищам по цеху.
-                
-                <h3>
-                    My skills
-                </h3>
-                <h4>
-                    ЯП
-                </h4>
-                <ul>
-                    <li>
-                        Python,
-                    </li>
-                    <li>
-                        JS,
-                    </li>
-                    <li>
-                        Scratch
-                    </li>
-                </ul>
-                
-                <h4>
-                    Frameworks
-                </h4>
-                <ul>
-                    <li>bootstrap</li>
-                </ul>  
-                
-                <h4>
-                    Programm
-                </h4>
-                <ul>
-                    <li>
-                        Photoshop,
-                    </li>
-                    <li>
-                        Sublime Text 3,
-                    </li>
-                    <li>
-                        Git
-                    </li>
-                </ul>
-                
-                <h3>
-                    Education
-                </h3>
-                <ul>
-                    <li>
-                        <a href="https://htmlacademy.ru/profile/id170561"> HTMLAcademy</a>
-                    </li>
-                    <li>
-                        <a href="https://rs.school/js/index.html">The Rolling Scopes School</a>
-                    </li>
-                </ul>
-                
-                <h3>
-                    English level
-                </h3>
-                <ul>
-                    <li>Level: Beginner.</li>
-                </ul>
-                
-                
+        <section id="cv" class="cv section">
+                <div class="cv-info">
+                    <h2>My curriculum vitae</h2>
+                    <h3>
+                        Summary
+                    </h3>
+                    <ul>
+                        <li>
+                            All time I work on my skills. I try to do so that my level tomorrow was higher than today.
+                        </li>
+                    </ul>
+                    <!-- Хочу повысить свои навыки в веб разработке. Возможно даже найти работу. Есть несколько идей которые хочется реализовать, надеюсь буст в виде курсов мне в этом поможет. RSS будет для меня тем челенджем который ускорит меня, готов использовать свои знания и помогать товарищам по цеху. -->
+                    
+                    <h3>
+                        My skills
+                    </h3>
+                    <h4>
+                        Programming languages
+                    </h4>
+                    <ul>
+                        <li>
+                            Python,
+                        </li>
+                        <li>
+                            JS,
+                        </li>
+                        <li>
+                            Scratch
+                        </li>
+                    </ul>
+                    
+                    <h4>
+                        Frameworks
+                    </h4>
+                    <ul>
+                        <li>bootstrap</li>
+                    </ul>  
+                    
+                    <h4>
+                        Program
+                    </h4>
+                    <ul>
+                        <li>
+                            Photoshop,
+                        </li>
+                        <li>
+                            Sublime Text 3,
+                        </li>
+                        <li>
+                            Git
+                        </li>
+                    </ul>
+                    
+                    <h3>
+                        Education
+                    </h3>
+                    <ul>
+                        <li>
+                            <a href="https://htmlacademy.ru/profile/id170561"> HTMLAcademy</a>
+                        </li>
+                        <li>
+                            <a href="https://rs.school/js/index.html">The Rolling Scopes School</a>
+                        </li>
+                    </ul>
+                    
+                    <h3>
+                        English level
+                    </h3>
+                    <ul>
+                        <li>Level: Beginner.</li>
+                    </ul>
+                </div>
                 
         </section>
     </main>
-    <footer>
-        <ul class="contact">
-            <li>- моб. <a href="tel:+375-44-556-08-61">+375-44-556-08-61</a></li>
-            <li>email: <a href="mailto:jack.shapyalevich@gmail.com">jack.shapyalevich@gmail.com</a></li>
+    <footer id="contact" class="footer-page">
+        <ul class="contacts">
+            <li>моб. <a class="item" href="tel:+375-44-556-08-61">+375-44-556-08-61</a></li>
+            <li>email: <a class="item" href="mailto:jack.shapyalevich@gmail.com">jack.shapyalevich@gmail.com</a></li>
         </ul>
     </footer>
 </body>
